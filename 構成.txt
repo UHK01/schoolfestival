@@ -1,0 +1,136 @@
+動画の構成
+動画数:3{
+    OP,
+    本編,
+    ED,
+}
+
+OP {
+    1.OP前{
+        言葉{
+            FilePath:/Users/yuuki/Library/CloudStorage/OneDrive-京都府教育庁/R6文化祭/舞台/文化祭最初.pdf
+            Option{
+                読み上げ
+            }
+        }
+        背景{
+            空撮背景
+            FilePath:/Users/yuuki/Desktop/R6文化祭/DCIM/100MEDIA
+        }
+    }
+    2.OP後{
+        言葉{
+            FilePath:
+            Option{
+                読み上げ
+            }
+        }
+        背景{
+            作業風景{
+                FilePath:/Users/yuuki/Desktop/R6文化祭/素材
+                Option{
+                    右下{
+                        班の名前
+                    }
+                    背景{
+                        各班混合(森林,ログ,木工)
+                    }
+                }
+            }
+        }
+        BGM{
+            FilePath:
+        }
+    }
+    3.最後{
+        言葉{
+            FilePath:/Users/yuuki/Desktop/R6文化祭/OP後.pdf
+            Option{
+                Text {
+                    color:White;
+                }
+            }
+        }
+        背景{
+            FilePath: None;
+            黒
+        }
+    }
+}
+
+---劇---
+
+本編{
+    0.最初{
+        言葉{
+            FilePath:
+            Option{
+                読み上げ
+            }
+        }
+        背景{
+            FilePath:
+        }
+        BGM{
+            FilePath:
+        }
+    }
+    1.木工{
+        言葉{
+            FilePath:
+        }
+        背景{
+
+        }
+        BGM{
+            FilePath:
+        }
+    }
+    2.ログ{
+        言葉{
+            FilePath:
+        }
+        BGM{
+            FilePath:
+        }
+    }
+    3.森林{
+        言葉{
+            FilePath:
+        }
+        BGM{
+            アスノヨゾラ哨戒班{
+                FilePath:/Users/yuuki/Desktop/R6文化祭/素材/アスノヨゾラ哨戒班.mp3
+            }
+        }
+        最後{
+            代表の言葉{
+                BGM:None
+                Option{
+                    字幕
+                }
+            }
+        }
+    }
+}
+
+ED{
+    担任の思い{
+        言葉{
+
+        }
+        BGM {
+
+        }
+    }
+    エンドロール（流れる）{
+        内容{
+            企画者
+            監督
+            生徒の名前
+        }
+        BGM{
+            プロジェクトXのED
+        }
+    }
+}
